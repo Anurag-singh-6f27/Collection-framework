@@ -1,3 +1,5 @@
+package Stacks_And_Queues;
+
 public class Custom_Stack {
     protected int[] data;
     private static final int DEFAULTSIZE = 10;

@@ -1,3 +1,5 @@
+package Stacks_And_Queues;
+
 public class dynamicStack extends Custom_Stack {
     public dynamicStack() {
         super();

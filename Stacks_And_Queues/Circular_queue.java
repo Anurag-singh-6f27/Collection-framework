@@ -1,3 +1,5 @@
+package Stacks_And_Queues;
+
 public class Circular_queue {
     private int[] data;
     private static final int DEFAULTSIZE = 10;
