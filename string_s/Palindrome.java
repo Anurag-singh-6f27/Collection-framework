@@ -12,9 +12,10 @@ public class Palindrome {
             return true;
         }
         StringBuilder str1 = new StringBuilder(s);
-        String onlyLetters = str1.toString().replaceAll("[^a-zA-Z]", "");
+        String alphanumeric = str1.toString().replaceAll("[^a-zA-Z0-9]", "");
 
-        str1 = new StringBuilder(onlyLetters.toLowerCase());
+
+        str1 = new StringBuilder(alphanumeric.toLowerCase());
         if(str1.toString().contentEquals(str1.reverse())) {
             return true;
         }
